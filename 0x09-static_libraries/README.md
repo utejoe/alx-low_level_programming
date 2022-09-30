@@ -1,1 +1,1 @@
-project on understanding  C - Static libraries
+understanding 0x09. C - Static libraries
