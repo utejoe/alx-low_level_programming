@@ -1,1 +1,1 @@
- C - Static libraries
+project on understanding  C - Static libraries
