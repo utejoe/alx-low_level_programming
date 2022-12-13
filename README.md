@@ -1,2 +1,2 @@
-0x00. C - Hello, World
-Learning C Programming language
+# learning low level programming language
+starting with C Programming language
