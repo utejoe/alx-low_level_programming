@@ -1,9 +1,13 @@
-# 1-Makefile
-
-# Setting variables
 CC = gcc
-SRC = main.c holberton.c
+SRC = school.c main.c
 
-# Rule all: uses variables to build the holberton executable file
 all:
-	$(CC) $(SRC) -o holberton
+	$(CC) $(SRC) -o school
+
+# OR
+# all: $(SRC)
+#	$(CC) $(SRC) -o school
+
+# OR
+# all: $(SRC) message.h
+#       $(CC) $(SRC) -o school

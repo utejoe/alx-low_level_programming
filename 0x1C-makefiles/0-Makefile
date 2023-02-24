@@ -1,5 +1,8 @@
-# 0-Makefile
+# This file automates the compilation of a C program
 
-# Rule all: builds the holberton executable file
-all:
-	gcc main.c holberton.c -o holberton
+all: main.c school.c message.h
+	gcc main.c school.c -o school
+
+# OR
+# all:
+#	gcc main.c school.c -o school
